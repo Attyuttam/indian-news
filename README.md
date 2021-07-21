@@ -1,4 +1,4 @@
-# the-indian-news
+# indian-news
 
 Features of this project:
 - Provides real time news on the UI
