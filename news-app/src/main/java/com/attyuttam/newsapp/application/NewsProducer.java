@@ -5,13 +5,10 @@ import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-import javax.validation.constraints.Null;
-
 import com.attyuttam.newsapp.domain.News;
 import com.attyuttam.newsapp.domain.NewsArticle;
 import com.attyuttam.newsapp.infra.googlenews.GoogleNewsService;
 
-import org.apache.tomcat.util.buf.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
